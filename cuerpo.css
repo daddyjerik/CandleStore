@@ -1,0 +1,158 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    text-decoration: none;
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(180, 68, 68);
+    }
+    .slogan{
+        
+        position:relative;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 150px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        }
+
+    
+    header{
+        display: flex;
+        height: 40px;
+        background-color: rgb(36, 36, 36);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img{
+        height: 50px;
+        margin-left: 10px;
+    }
+    nav a{
+        font-weight: 600;
+        padding-right: 10px;
+    }
+    
+    nav a:hover{
+        color:rgb(220, 107, 255)
+    }
+    
+    
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fffefe;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.featured-products {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.product {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.price {
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .product {
+        margin: 20px 0;
+    }
+    
+    .banner-text {
+        padding: 10px;
+    }
+}

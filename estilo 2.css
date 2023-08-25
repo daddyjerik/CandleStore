@@ -1,0 +1,104 @@
+.header {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70vh;
+background: url(Captura\ de\ pantalla\ 2023-08-24\ 105932.png) no-repeat center; 
+background-size: cover;
+text-decoration: none;
+
+}
+.title  {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600px;
+    font-family: sans-serif;
+    color:#171717;
+}
+
+.titulito {
+font-family: sans-serif;
+font-size: 30px;
+font-weight: 400;
+color: #5c5050;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid#e91e63;
+    color: #fff;
+    text-decoration: none;
+    background: #e91e63;
+}
+.btn :hover {
+    background: none;
+}
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.sau {
+    padding: 50px 0;
+    background: #303030;
+}
+.contact {
+    padding: 50px 0;
+    background: #303030;
+    text-decoration: none;
+}
+.about {
+    padding: 50px 0;
+    background: #303030;
+
+}
+.title {
+    color: #fff;
+}
+header {
+    font-family: initial;
+    text-align: center;
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    
+    
+}
+
+section {
+    display: block;
+    padding: 2opx 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+header {
+    display: block;
+    padding: 2opx 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.sau {
+    background: url(Captura\ de\ pantalla\ 2023-08-10\ 074051.png) no-repeat center; 
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color:#fff;
+    display: flex;
+}
+.Nuevo {
+    font-family: initial;
+    text-align: center;
+    display: block;
+    color:#171717;
+
+}
